@@ -1,0 +1,65 @@
+.somesale {
+  display: flex;
+  justify-content: space-around;
+}
+.somesale .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.somesale .left .watch_img {
+  width: 272px;
+  height: 336px;
+  background: url("../img/appwatch/white.png");
+}
+.somesale .left .toogles {
+  display: flex;
+}
+.somesale .left .toogles button {
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+  border: none;
+  border-radius: 50%;
+}
+.somesale .left .toogles #but1 {
+  background-color: #cccdd1;
+}
+.somesale .left .toogles #but2 {
+  background-color: #e7c1b5;
+}
+.somesale .left .toogles #but3 {
+  background-color: black;
+}
+.somesale .left .toogles #but4 {
+  background-color: grey;
+}
+.somesale .right {
+  width: 40%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.somesale .right h2 {
+  color: #f58466;
+  font-size: 42px;
+}
+.somesale .right p {
+  font-size: 14px;
+  color: #95a7b2;
+}
+.somesale .right span {
+  position: absolute;
+  left: 70%;
+  top: 20%;
+  font-size: 5em;
+  opacity: 0.1;
+}
+.somesale .right button {
+  background-color: #f58466;
+  border: none;
+}
+/*# sourceMappingURL=somesale.css.map */

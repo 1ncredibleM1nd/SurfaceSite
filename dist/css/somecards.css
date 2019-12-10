@@ -1,0 +1,26 @@
+.somecards {
+  display: flex;
+  justify-content: space-around;
+}
+.somecards .somecard h2 {
+  font-size: 35px;
+  color: white;
+}
+.somecards .somecard h3 {
+  font-size: 24px;
+  color: black;
+}
+.somecards .somecard p {
+  font-size: 14px;
+  color: black;
+}
+.somecards .somecard1 {
+  width: 770px;
+  height: 210px;
+  background: url("../img/bag.jpg");
+}
+.somecards .somecard2 {
+  width: 375px;
+  height: 210px;
+  background: url("../img/galery.jpg");
+}

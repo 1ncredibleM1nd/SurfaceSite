@@ -1,0 +1,42 @@
+.upper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 46px;
+  margin-right: 2em;
+  margin-left: 2em;
+}
+.upper #seacrhplace {
+  border-radius: 2em;
+  border: 1px solid #000000;
+  text-align: center;
+  padding: 10px 10px;
+  user-focus: none;
+  outline: none;
+}
+.upper button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  margin-right: 10px;
+}
+.upper button::after {
+  content: "⏷";
+}
+.upper .lower {
+  display: flex;
+  justify-content: space-around;
+}
+.upper .lower ul {
+  display: flex;
+}
+.upper .lower ul li {
+  list-style: none;
+}
+.upper .lower ul li a {
+  text-decoration: none;
+  color: #52656f;
+}
+.upper .lower ul li a:hover {
+  color: #f58466;
+}

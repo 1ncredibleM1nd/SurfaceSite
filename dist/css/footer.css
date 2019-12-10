@@ -1,0 +1,30 @@
+.partners {
+  display: flex;
+  justify-content: center;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2em 2em;
+  background-color: #fef1ee ;
+}
+footer .navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 2em;
+}
+footer .navigation a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+footer .footer_socials {
+  display: flex;
+  justify-content: space-around;
+}
+footer .footer_socials a {
+  margin-right: 10px;
+}
